@@ -2,6 +2,7 @@
 
 PROJECT_ID=$(gcloud config get-value project)
 DATASET_NAME="mcp_bakery"
+DATASET_DESCRIPTION="Dataset for MCP Bakery Demo"
 LOCATION="US"
 
 # Generate bucket name if not provided
